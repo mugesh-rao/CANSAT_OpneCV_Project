@@ -2,7 +2,7 @@
 import cv2
 
 # Load the input image
-image = cv2.imread('C:\Mugesh Rao\JIT\CANSAT\New folder\Python-Learning\CANSAT\neww.png')
+image = cv2.imread('C:/Mugesh Rao/JIT/CANSAT/CANSAT_OpneCV_Project/Clouds_img/cloud3.webp')
 cv2.imshow('Original', image)
 cv2.waitKey(0)
 

@@ -2,8 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread(
-    r"C:\Mugesh Rao\JIT\CANSAT\New folder\Python-Learning\CANSAT\neww.png", 1)
+image = cv2.imread("C:/Mugesh Rao/JIT/CANSAT/CANSAT_OpneCV_Project/Clouds_img/cloud3.webp")
 # Loading the image
 
 half = cv2.resize(image, (0, 0), fx=0.1, fy=0.1)

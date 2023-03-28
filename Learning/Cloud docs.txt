@@ -1,0 +1,19 @@
+Segmenting satellite cloud images using OpenCV in Python involves several steps. Here is a general overview of the process:
+
+Importing required libraries:
+You will need to import the necessary libraries such as OpenCV, NumPy, and Matplotlib.
+
+Loading the image:
+Load the satellite cloud image using the imread function from OpenCV.
+
+Preprocessing the image:
+This step involves applying various image processing techniques to improve the quality of the image. Some of the common techniques include:
+
+Blurring the image to remove noise and smooth the edges using the GaussianBlur function from OpenCV.
+Converting the image to grayscale using cvtColor function from OpenCV.
+Applying thresholding to the image to binarize it using threshold function from OpenCV.
+Finding the contours:
+Use the findContours function from OpenCV to detect the contours of the image. This will help you to identify the cloud regions in the image.
+
+Drawing the contours:
+Once you have identified the cloud regions, you can draw the contours on the original image using the drawContours function from OpenCV.
