@@ -1,10 +1,17 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+from tkinter import Tk
+from tkinter.filedialog import askopenfilename
 
 # This Segement Images of Clouds and field and Mountains
+root = Tk()
+root.withdraw()
 
-img = cv2.imread('C:/Mugesh Rao/JIT/CANSAT/CANSAT_OpneCV_Project/Clouds_img/cloud6.jpg')
+# Use file dialog to select image
+file_path = askopenfilename(title="Select an image")
+
+img = cv2.imread(file_path)
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
